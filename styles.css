@@ -38,9 +38,9 @@ body{
     color: #252432;
     margin-bottom: 20px;
     text-align:center
-    padding:50px
+    
 
-}
+
 .focus-btn {
 background-color: #4E47FF;
 color: #FFFFFF;
@@ -53,13 +53,9 @@ border: none;
 }
 .see-section{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 40px;
-    background-coloR :#FFFFFF;
-    flex-wrap: wrap;   
+       
 }
-.action-left, {
+.action-left {
     max-width: 500px;
 }
  .action-left,h2 {
@@ -113,4 +109,183 @@ color:#111 ;
 .stat-box p{
     font-size: 14px;
     color: #666;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.heading{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.testimonials{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.card{
+    background: #fff;
+    padding: 200px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px;
+    text-align: center;
+}
+.star{
+    color: #f5a623;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+.card h3{
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+.card p{
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 16px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.reviewer .info{
+text-align: left;
+font-size: 0.9em;
+color: #666;
+}
+.cta{
+    text-align: center;
+    background: #fff;
+    padding: 60px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px;
+}
+.cta h2{
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.cta p{
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+.cta .btn{
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 1em;
+    background: #4E47FF;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.cta img{
+    display: block;
+    margin: 40px auto 0;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px;
+}
+@media (max-width:780px){
+.testimonials{
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 90%;
+    max-width: 320px;
+}
+}
+
+
+
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 2px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.contact-form input
+.contact-form textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.contact-form button {
+    padding: 12px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover{
+    background-color: #0022aa;
+}
+.footer{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+.logo{
+    font-size: 48px;
+    font-weight: bold;
+    color: #120be4;
+    margin-bottom:  10px;
+}
+.description{
+    font-size: 1px;
+    color: #555555;
+    max-width: 30px;
+    margin: 0 auto 20px;
+}
+.footer-nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #666666;
+    font-size: 1px;
+}
+.primary-btn{
+    background-color: #4E47FF;
+    color: white;
 }
