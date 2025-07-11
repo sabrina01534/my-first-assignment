@@ -132,6 +132,10 @@ color:#111 ;
     gap: 20px;
    
 }
+.primary-btn{
+    background-color: red;
+    color: white;
+}
 .card{
     background: #fff;
     padding: 200px;
@@ -285,7 +289,4 @@ footer{
     color: #666666;
     font-size: 1px;
 }
-.primary-btn{
-    background-color: #4E47FF;
-    color: white;
-}
+
