@@ -37,7 +37,8 @@ body{
     font-size: 32px;
     color: #252432;
     margin-bottom: 20px;
-    text-ali
+    text-align:center
+    padding:50px
 
 }
 .focus-btn {
@@ -68,6 +69,8 @@ font-size: 28px;
  }
 .action-left p{
 color: #666;
+margin-bottom: 20px;
+font-size: 16px;
 }
 .preview-btn{
 background-color: #4E47FF;
@@ -83,4 +86,31 @@ border-radius: 16px;
 box-shadow: 0 4px 20px ;
 margin-top: 20px;
 align-items: right;
+}
+.stats-section, h3{
+    background-color: #f2f4f8;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.stats-section h3{
+font-size: 22px;
+margin-bottom: 30px;
+color:#111 ;
+}
+.stats-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #f2f4f8;
+}
+.stat-box h2{
+    color:#4E47FF ;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.stat-box p{
+    font-size: 14px;
+    color: #666;
 }
